@@ -1,5 +1,5 @@
 
-name: garrysmod
+name: build garrysmod
 
 on:
   schedule:
