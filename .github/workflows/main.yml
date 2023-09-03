@@ -1,11 +1,13 @@
+
 name: build garrysmod
 
 on:
+  workflow_dispatch :
   schedule:
     - cron: "0 0 1 * *"
   push:
     branches:
-      - master
+      - main
     tags: [ 'v*.*.*' ]
 jobs:
   push:
